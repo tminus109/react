@@ -1,2 +1,2 @@
 # react
-React exercises, projects and assessments.
+React exercises and assessments.
