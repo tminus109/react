@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Snapshot test 1`] = `
+Array [
+  <div>
+    <header>
+      <h1>
+        Users
+      </h1>
+    </header>
+  </div>,
+  <div>
+    <button
+      className="button"
+      onClick={[Function]}
+    >
+      Add new user
+    </button>
+  </div>,
+  <div />,
+]
+`;

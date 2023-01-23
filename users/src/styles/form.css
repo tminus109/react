@@ -1,0 +1,60 @@
+fieldset {
+  width: 500px;
+  border: 1px solid #b5a4ed;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+legend {
+  padding: 0 20px;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  text-align: left;
+}
+
+li + li {
+  margin-top: 2em;
+}
+
+input {
+  all: unset;
+  width: 100%;
+  background: transparent;
+  border-bottom: 1px solid #b5a4ed;
+  text-align: left;
+  padding: 5px;
+}
+
+input:focus {
+  border-color: #4a1eaa;
+}
+
+@media only screen and (max-width: 760px),
+  (min-device-width: 768px) and (max-device-width: 1024px) {
+  fieldset {
+    width: 100%;
+  }
+}
+
+.error {
+  color: red;
+}
+
+.success {
+  color: #4a1eaa;
+}
+
+a {
+  color: #4a1eaa;
+  text-decoration: underline;
+}
+
+::placeholder {
+  color: slategray;
+  opacity: 1;
+}

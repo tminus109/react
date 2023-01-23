@@ -1,0 +1,95 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Snapshot test 1`] = `
+Array [
+  <div>
+    <header>
+      <h1>
+        New User
+      </h1>
+    </header>
+  </div>,
+  <div>
+    <fieldset>
+      <legend>
+        Add new user
+      </legend>
+      <form
+        onSubmit={[Function]}
+      >
+        <ul>
+          <li>
+            <label
+              htmlFor="first_name"
+              id="first-name-lbl"
+            >
+              First name:
+            </label>
+          </li>
+          <li>
+            <input
+              autoFocus={true}
+              id="first_name"
+              onChange={[Function]}
+              placeholder="First name..."
+              type="text"
+              value=""
+            />
+          </li>
+          <li>
+            <label
+              htmlFor="last_name"
+              id="last-name-lbl"
+            >
+              Last name:
+            </label>
+          </li>
+          <li>
+            <input
+              id="last_name"
+              onChange={[Function]}
+              placeholder="Last name..."
+              type="text"
+              value=""
+            />
+          </li>
+          <li
+            hidden={true}
+          >
+            <label
+              htmlFor="status"
+            >
+              Status:
+            </label>
+          </li>
+          <li
+            hidden={true}
+          >
+            <input
+              id="status"
+              onChange={[Function]}
+              type="text"
+              value="active"
+            />
+          </li>
+          <li>
+            <div>
+              <button
+                className="button"
+              >
+                Add user
+              </button>
+            </div>
+          </li>
+        </ul>
+      </form>
+    </fieldset>
+  </div>,
+  <a
+    href="/users"
+    onClick={[Function]}
+  >
+    Back to users
+  </a>,
+]
+`;
